@@ -14,6 +14,11 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		7699B88040F8A987B510C191 /* libPods-app_test-app_testTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-app_test-app_testTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		5F959F7BDD7645CE8AE2BA7C /* CarmenSans-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = BFE4140A21E84D7EA067FB2C /* CarmenSans-Regular.otf */; };
+		EAD77257AA5443B1A4EA87EB /* CarmenSans-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = C81EC48550FB42ECB6BBE28B /* CarmenSans-SemiBold.otf */; };
+		4E259550F47C45AFA59A9F19 /* CarmenSans-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5CD6B1F0A1BB46809BCA4782 /* CarmenSans-Thin.otf */; };
+		46EF5160E4A74F958A862C6A /* CocoGothic-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 99FBA1184D934B09A40171EB /* CocoGothic-Bold.ttf */; };
+		E73062F7E2A94984928098F3 /* CocoGothic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F0D56628889A4C8B848C0381 /* CocoGothic.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +49,11 @@
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = app_test/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-app_test-app_testTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-app_test-app_testTests.release.xcconfig"; path = "Target Support Files/Pods-app_test-app_testTests/Pods-app_test-app_testTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		BFE4140A21E84D7EA067FB2C /* CarmenSans-Regular.otf */ = {isa = PBXFileReference; name = "CarmenSans-Regular.otf"; path = "../assets/fonts/CarmenSans-Regular.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C81EC48550FB42ECB6BBE28B /* CarmenSans-SemiBold.otf */ = {isa = PBXFileReference; name = "CarmenSans-SemiBold.otf"; path = "../assets/fonts/CarmenSans-SemiBold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5CD6B1F0A1BB46809BCA4782 /* CarmenSans-Thin.otf */ = {isa = PBXFileReference; name = "CarmenSans-Thin.otf"; path = "../assets/fonts/CarmenSans-Thin.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		99FBA1184D934B09A40171EB /* CocoGothic-Bold.ttf */ = {isa = PBXFileReference; name = "CocoGothic-Bold.ttf"; path = "../assets/fonts/CocoGothic-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F0D56628889A4C8B848C0381 /* CocoGothic.ttf */ = {isa = PBXFileReference; name = "CocoGothic.ttf"; path = "../assets/fonts/CocoGothic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +132,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				37EEAFE8F731429DBE281BA4 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -147,6 +158,19 @@
 			);
 			path = Pods;
 			sourceTree = "<group>";
+		};
+		37EEAFE8F731429DBE281BA4 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				BFE4140A21E84D7EA067FB2C /* CarmenSans-Regular.otf */,
+				C81EC48550FB42ECB6BBE28B /* CarmenSans-SemiBold.otf */,
+				5CD6B1F0A1BB46809BCA4782 /* CarmenSans-Thin.otf */,
+				99FBA1184D934B09A40171EB /* CocoGothic-Bold.ttf */,
+				F0D56628889A4C8B848C0381 /* CocoGothic.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -244,6 +268,11 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				5F959F7BDD7645CE8AE2BA7C /* CarmenSans-Regular.otf in Resources */,
+				EAD77257AA5443B1A4EA87EB /* CarmenSans-SemiBold.otf in Resources */,
+				4E259550F47C45AFA59A9F19 /* CarmenSans-Thin.otf in Resources */,
+				46EF5160E4A74F958A862C6A /* CocoGothic-Bold.ttf in Resources */,
+				E73062F7E2A94984928098F3 /* CocoGothic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
