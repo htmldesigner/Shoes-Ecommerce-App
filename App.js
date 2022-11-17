@@ -29,7 +29,8 @@ const App = () => {
             headerLeft: () => (
               <TouchableOpacity
                 style={{marginLeft: SIZES.padding}}
-                onPress={() => Alert.alert('menu')}>
+                onPress={() => Alert.alert('menu')}
+              >
                 <Image
                   source={icons.menu}
                   resizeMode="contain"
@@ -40,7 +41,8 @@ const App = () => {
             headerRight: () => (
               <TouchableOpacity
                 style={{marginRight: SIZES.padding}}
-                onPress={() => Alert.alert('search')}>
+                onPress={() => Alert.alert('search')}
+              >
                 <Image
                   source={icons.search}
                   resizeMode="contain"
