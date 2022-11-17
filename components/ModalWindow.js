@@ -1,6 +1,6 @@
 import {StyleSheet, Text, View, Modal, TouchableOpacity} from 'react-native';
 import React from 'react';
-
+import {BlurView, VibrancyView} from '@react-native-community/blur';
 const ModalWindow = ({showModal, closeModel, children}) => {
   return (
     <Modal
@@ -11,14 +11,12 @@ const ModalWindow = ({showModal, closeModel, children}) => {
         Alert.alert('Modal has been closed.');
       }}
     >
-      <View // Blur container here
+      <BlurView style={styles.absolute} blurType="light" blurAmount={1} />
+      <View
         style={{
           flex: 1,
           alignItems: 'center',
           justifyContent: 'center',
-
-          backgroundColor: '#fff',
-          opacity: 0.9,
         }}
       >
         <TouchableOpacity
