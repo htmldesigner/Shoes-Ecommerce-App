@@ -1,4 +1,4 @@
-## Application by original design
+## App concept by original design
 
 #
 
